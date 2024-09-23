@@ -1,32 +1,32 @@
 const homelist = (req, res) => {
   res.render("locations-list", {
-    title: "Loc8r - find a place to work with wifi",
+    title: "Ojas Services- Wide Range space of Milk And Its Products",
     pageHeader: {
-      title: "Loc8r",
-      strapline: "Find places to work with wifi near you!",
+      title: "Ojas Services",
+      strapline: "Wide Range space of Milk And Its Products!",
     },
     sidebar:
-      "Looking for wifi and a seat? Loc8r helps you find placesto work when out and about. Perhaps with coffee, cake or a pint?Let Loc8r help you find the place you're looking for.",
+      "Looking for Milk and a Sweet? Ojas helps you find places to when out and about. Perhaps with Milk, curd or a Sweet?Let Ojas help you find the place you're looking for.",
     locations: [
       {
-        name: "Starcups",
+        name: "Ojas Services ",
         address: "125 High Street, Reading, RG6 1PS",
-        rating: 3,
-        facilities: ["Hot drinks", "Food", "Premium wifi"],
+        rating: 4,
+        facilities: ["Milk", "Curd", "Sweets"],
         distance: "100m",
       },
       {
-        name: "Cafe Hero",
+        name: "Ojas Milk",
         address: "125 High Street, Reading, RG6 1PS",
         rating: 4,
-        facilities: ["Hot drinks", "Food", "Premium wifi"],
+        facilities: ["Fresh Milk", "Curd",],
         distance: "200m",
       },
       {
-        name: "Burger Queen",
+        name: "Sweet Store",
         address: "125 High Street, Reading, RG6 1PS",
-        rating: 2,
-        facilities: ["Food", "Premium wifi"],
+        rating: 5,
+        facilities: ["Halwa", "kesari"],
         distance: "250m",
       },
     ],
@@ -34,31 +34,31 @@ const homelist = (req, res) => {
 };
 const locationInfo = function (req, res) {
   res.render("location-info", {
-    title: "Starcups",
-    pageHeader: { title: "Starcups" },
+    title: "Ojas Services",
+    pageHeader: { title: "Ojas Services" },
     sidebar: {
       context:
-        "is on Loc8r because it has accessible wifi and space to sit➥down with your laptop and get some work done.",
+        "is on Ojas because it has Milk and space to Eat the Sweets with your friends andnfamily and get some Joy.",
       callToAction:
         "If you've been and you like it - or if you don't -➥please leave a review to help other people just like you.",
     },
     location: {
-      name: "Starcups",
+      name: "Ojas Milk",
       address: "125 High Street, Reading, RG6 1PS",
-      rating: 3,
-      facilities: ["Hot drinks", "Food", "Premium wifi"],
+      rating: 4,
+      facilities: ["Milk", "Curd", "Sweets"],
       coords: { lat: 51.455041, lng: -0.9690884 },
       openingTimes: [
         {
           days: "Monday - Friday",
-          opening: "7:00am",
-          closing: "7:00pm",
+          opening: "5:00am",
+          closing: "9:00pm",
           closed: false,
         },
         {
           days: "Saturday",
-          opening: "8:00am",
-          closing: "5:00pm",
+          opening: "4:00am",
+          closing: "9:00pm",
           closed: false,
         },
         {
@@ -68,18 +68,18 @@ const locationInfo = function (req, res) {
       ],
       reviews: [
         {
-          author: "Simon Holmes",
+          author: "Udaya Sree",
           rating: 5,
-          timestamp: "16 July 2013",
+          timestamp: "16 July 2024",
           reviewText:
             "What a great place. I can't say enough good things about it.",
         },
         {
-          author: "Charlie Chaplin",
+          author: "Sai Niheth",
           rating: 3,
-          timestamp: "16 June 2013",
+          timestamp: "21 June 2023",
           reviewText:
-            "It was okay. Coffee wasn't great, but the wifi was fast.",
+            "It was okay. Halwa wasn't great, but the Milk and Curd werw Good.",
         },
       ],
     },
@@ -87,8 +87,8 @@ const locationInfo = function (req, res) {
 };
 const addReview = function (req, res) {
   res.render("location-review-form", {
-    title: "Review Starcups on Loc8r",
-    pageHeader: { title: "Review Starcups" },
+    title: "Review Ojas  on Ojas Services",
+    pageHeader: { title: "Review Ojas" },
   });
 };
 module.exports = {
