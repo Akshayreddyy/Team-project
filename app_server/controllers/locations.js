@@ -10,21 +10,21 @@ const homelist = (req, res) => {
     locations: [
       {
         name: "Ojas Services ",
-        address: "125 High Street, Reading, RG6 1PS",
+        address: "Suryapet, Available, Road N0.6",
         rating: 4,
         facilities: ["Milk", "Curd", "Sweets"],
         distance: "100m",
       },
       {
         name: "Ojas Milk",
-        address: "125 High Street, Reading, RG6 1PS",
+        address: "Rock Town Colony, Available, 1-45",
         rating: 4,
         facilities: ["Fresh Milk", "Curd",],
         distance: "200m",
       },
       {
         name: "Sweet Store",
-        address: "125 High Street, Reading, RG6 1PS",
+        address: "Siddipet, Available, Road No.2",
         rating: 5,
         facilities: ["Halwa", "kesari"],
         distance: "250m",
@@ -44,7 +44,7 @@ const locationInfo = function (req, res) {
     },
     location: {
       name: "Ojas Milk",
-      address: "125 High Street, Reading, RG6 1PS",
+      address: "Suryapet, Available, Road N0.6",
       rating: 4,
       facilities: ["Milk", "Curd", "Sweets"],
       coords: { lat: 51.455041, lng: -0.9690884 },
@@ -68,14 +68,21 @@ const locationInfo = function (req, res) {
       ],
       reviews: [
         {
-          author: "Udaya Sree",
+          author: "Narendra  ",
           rating: 5,
+          timestamp: "14 August 2024",
+          reviewText:
+            "What a great place.",
+        },
+        {
+          author: "Udaya Sree  ",
+          rating: 4,
           timestamp: "16 July 2024",
           reviewText:
             "What a great place. I can't say enough good things about it.",
         },
         {
-          author: "Sai Niheth",
+          author: "Sai Niheth ",
           rating: 3,
           timestamp: "21 June 2023",
           reviewText:
