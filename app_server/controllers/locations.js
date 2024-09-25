@@ -95,9 +95,18 @@ const addReview = function (req, res) {
     pageHeader: { title: "Review Ojas" },
   });
 };
+const contactPage = (req, res) => {
+  res.render("contact", {
+    title: "Contact Ojas Services",
+    pageHeader: { title: "Get in Touch with Ojas Services" },
+    sidebar: "Have questions or feedback? We'd love to hear from you!",
+  });
+};
+
 
 module.exports = {
   homelist,
   locationInfo,
   addReview,
+  contactPage,
 };
