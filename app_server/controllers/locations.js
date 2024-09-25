@@ -50,21 +50,18 @@ const locationInfo = function (req, res) {
       coords: { lat: 51.455041, lng: -0.9690884 },
       openingTimes: [
         {
-          days: "Monday - Friday",
+          days: "Monday -Saturday",
           opening: "5:00am",
           closing: "9:00pm",
           closed: false,
         },
         {
-          days: "Saturday",
+          days: "Sunday",
           opening: "4:00am",
           closing: "9:00pm",
           closed: false,
         },
-        {
-          days: "Sunday",
-          closed: true,
-        },
+      
       ],
       reviews: [
         {
