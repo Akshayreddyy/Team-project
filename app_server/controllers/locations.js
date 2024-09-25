@@ -72,7 +72,7 @@ const locationInfo = function (req, res) {
           rating: 5,
           timestamp: "14 August 2024",
           reviewText:
-            "What a great place.",
+            "Great place.",
         },
         {
           author: "Udaya Sree  ",
@@ -86,7 +86,7 @@ const locationInfo = function (req, res) {
           rating: 3,
           timestamp: "21 June 2023",
           reviewText:
-            "It was okay. Halwa wasn't great, but the Milk and Curd werw Good.",
+            "It was okay. Halwa wasn't great, and the Milk and Curd were Good.",
         },
       ],
     },
