@@ -9,7 +9,7 @@ const homelist = (req, res) => {
       "Looking for Milk and a Sweet? Ojas helps you find places to when out and about. Perhaps with Milk, curd or a Sweet?Let Ojas help you find the place you're looking for.",
     locations: [
       {
-        name: "Ojas Services ",
+        name: "Ojas Milk ",
         address: "Suryapet, Available, Road N0.6",
         rating: 4,
         facilities: ["Milk", "Curd", "Sweets"],
@@ -29,7 +29,7 @@ const locationInfo = function (req, res) {
         "If you've been and you like it - or if you don't -➥please leave a review to help other people just like you.",
     },
     location: {
-      name: "Ojas Services",
+      name: "Ojas Milk",
       address: "Suryapet, Available, Road N0.6",
       rating: 4,
       facilities: ["Milk", "Curd", "Sweets"],
