@@ -15,13 +15,6 @@ const homelist = (req, res) => {
         facilities: ["Milk", "Curd", "Sweets"],
         distance: "1Km",
       },
-      {
-        name: "Ojas Milk",
-        address: "Rock Town Colony, Available, 1-45",
-        rating: 4,
-        facilities: ["Fresh Milk", "Curd",],
-        distance: "20Km",
-      },
     ],
   });
 };
