@@ -78,11 +78,11 @@ h4 small {
   color: rgba(255, 255, 255, 0.8)
   }
   a:hover {
-  color:#fff
+  color:#ddf07b
   }
   body {
   font-family: "Cabin", Arial, sans-serif;
-  color: #fff;
+  color: #ddf07b;
   background-color: #108a93;
   background-image: url(image12.jpeg);
   background-size: cover;
