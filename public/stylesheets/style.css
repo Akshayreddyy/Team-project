@@ -11,7 +11,7 @@ border-color: #7dd4e1;
 }
 .navbar-light .navbar-brand {
 font-family: 'Lobster', cursive;
-color: #ddf07b;
+color: #520fd0;
 }
 .navbar-light .navbar-toggler {
 color: white;
@@ -78,11 +78,11 @@ h4 small {
   color: rgba(255, 255, 255, 0.8)
   }
   a:hover {
-  color:#ddf07b
+  color:#520fd0
   }
   body {
   font-family: "Cabin", Arial, sans-serif;
-  color: #ddf07b;
+  color: #520fd0;
   background-color: #108a93;
   background-image: url(image12.jpeg);
   background-size: cover;
