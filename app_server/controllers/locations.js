@@ -22,13 +22,6 @@ const homelist = (req, res) => {
         facilities: ["Fresh Milk", "Curd",],
         distance: "20Km",
       },
-      {
-        name: "Sweet Store",
-        address: "Siddipet, Available, Road No.2",
-        rating: 5,
-        facilities: ["Halwa", "kesari","Mysorepak","Cova"],
-        distance: "6Km",
-      },
     ],
   });
 };
