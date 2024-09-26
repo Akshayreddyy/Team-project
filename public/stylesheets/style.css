@@ -26,7 +26,7 @@ background-image: url("data:image/svgxml;charset=utf8,%3CsvgviewBox='0 0 30 30'x
 color: white;
 }
 .card {
-/*background-color: #469ea8;*/
+*background-color: #469ea8;
 padding: 1rem;
 }
 .card-primary {
