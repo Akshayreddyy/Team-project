@@ -84,7 +84,8 @@ h4 small {
   font-family: "Cabin", Arial, sans-serif;
   color: #fff;
   background-color: #108a93;
-  background-image: url(ojas1.png)background-size: cover;
+  background-image: url(ojas1.png);
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   /* background-size: 50%; */
